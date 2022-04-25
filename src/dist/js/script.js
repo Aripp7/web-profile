@@ -20,3 +20,51 @@ window.onscroll = function(){
         header.classList.remove('navbar-fixed')
     }
 }
+
+
+
+//icon dark-mode
+// const sunIcon = document.querySelector(".sun")
+// const moonIcon = document.querySelector(".moon")
+// const userTheme = localStorage.getItem("theme")
+// const systemTheme = window.matchMedia("(prefer-color-dark)").matches
+
+// const iconToggle = () =>{
+//     moonIcon.classList.toggle("display-none")
+//     sunIcon.classList.toggle("display-none")
+// }
+
+// const themeCheck = () =>{
+//     if(userTheme === "dark" || (!userTheme && systemTheme)){
+//         document.documentElement.classList.add("dark")
+//         sunIcon.classList.add("display-none")
+//         return
+//     }
+//     moonIcon.classList.add("display-none")
+// }
+
+// const themeSwitch = () =>{
+//     if(document.documentElement.classList.contains("dark")){
+//         document.documentElement.classList.remove("dark")
+//         localStorage.setItem("theme", "light")
+//         iconToggle()
+//         return
+//     }
+// }
+// const themeSwitch2 = () =>{
+//     if(document.documentElement.classList.contains("light")){
+//         document.documentElement.classList.remove("light")
+//         localStorage.setItem("theme", "dark")
+//         iconToggle()
+//         return
+//     }
+// }
+
+// sunIcon.addEventListener("click", () =>{
+//     themeSwitch()
+// })
+// moonIcon.addEventListener("click", () =>{
+//     themeSwitch2()
+// })
+
+// themeCheck()
